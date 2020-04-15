@@ -5,7 +5,7 @@ def hello_t(array)
   yield array[i]
 end 
   i += 1 
-end
+
 array
 else 
   puts "Hey, no block was given"
