@@ -1,10 +1,8 @@
 def hello_t(array)
+  if block_given?
   i = 0 
   while i < array.length 
-  if(yield array[i])
-    yield array[i]
-  else 
-  array[i]
+  yield array[i]
 end 
   i += 1 
 end
