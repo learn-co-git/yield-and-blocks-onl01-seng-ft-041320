@@ -10,6 +10,7 @@ array
 else 
   puts "Hey, no block was given"
 end
+end
 
  
 
